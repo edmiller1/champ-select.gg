@@ -21,7 +21,7 @@ export const Team = ({ match }) => {
                   src={filteredTeam.logo}
                   alt="team-logo"
                 />
-                <span className="tracking-wide text-lg">
+                <span className="tracking-wide text-lg text-center">
                   {filteredTeam.name}
                 </span>
               </div>

@@ -18,7 +18,9 @@ export const Teams = () => {
             <div className="w-1/4">
               <div className="pb-10 px-10 my-1 mx-2 shadow-lg flex flex-col justify-center items-center cursor-pointer">
                 <img className="w-20 h-20" src={team.logo} alt="team-logo" />
-                <span className="tracking-wide text-lg">{team.name}</span>
+                <span className="tracking-wide text-lg text-center">
+                  {team.name}
+                </span>
               </div>
             </div>
           ))}
