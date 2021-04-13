@@ -7,7 +7,7 @@ export const Nav = ({ darkMode, setDarkMode, isDropdown, setIsDropdown }) => {
       <div className="flex justify-between">
         <Link to="/">
           <h1 className="py-4 text-3xl font-extrabold px-5 cursor-pointer green">
-            Champ Select.GG
+            ChampSelect.GG
           </h1>
         </Link>
         <div className="absolute right-1 top-4">
